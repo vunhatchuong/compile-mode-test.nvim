@@ -4,9 +4,7 @@ local api = vim.api
 local M = {}
 
 M.config = {
-    adapters = {
-        require("compile-mode-test.adapters.zig"),
-    },
+    adapters = {},
 }
 
 local function get_adapter(config)
